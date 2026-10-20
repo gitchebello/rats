@@ -15,4 +15,4 @@ python3 dev/relay.py 9000  # outra porta
 
 ## Testes
 
-Os scripts em `dev/` (`check.js`, `smoke.js`, `strict.js`, `deep.js`, `shot.js`) rodam com `node` e verificam o jogo. Eles usam as dependências de `node_modules`, que não vão para o repositório (rode `npm install` antes).
+Os scripts em `dev/` (`check.js`, `smoke.js`, `strict.js`, `deep.js`, `shot.js`) rodam com `node` e verificam o jogo. Eles usam o `puppeteer` (`npm install puppeteer`); a pasta `node_modules` não vai para o repositório.
